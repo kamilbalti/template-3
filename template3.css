@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", Arial, sans-serif;
+    line-height: 1.5;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 16px;
+}
+img{
+    width: 100%;
+    vertical-align: middle !important;
+    margin-bottom: -8px !important;
+}
+.halfDiv{ 
+    width: 49.99%;
+    margin: 0;
+    padding: 0;
+}
+.parentDiv{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Raleway", Arial, sans-serif !important;
+    font-weight: 100;
+    padding: 11px 16px;
+    line-height: 1.25;
+    margin: 0 !important;
+}
+a:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+h2{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.boyPic{
+    padding: 32px 0;
+    max-width: 100%;
+    width: 300px;
+}
+.intro{
+    padding: 23px 0 0;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Raleway", Arial, sans-serif;
+}
+.redPara{
+    padding: 18px 0 14px;
+    color: #e91e63!important;
+    text-align: center;
+}
+label{
+    font-family: "Raleway", Arial, sans-serif;
+}
+.inputIntro{
+    font-size: 15px;
+    font-weight: 600;
+}
+input, button{
+    width: 100%;
+    padding: 6px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button{
+    background-color: #616161;
+    color: white;
+    padding: 8px 0;
+    font-size: 15px !important;
+    margin-top: 1px !important;
+}
+.footer{
+    font-size: 15px !important;
+    margin: 37px 0 78px;
+}
+.footerIntro{
+    font-size: 15px;
+    text-decoration: underline;
+    padding: 0;
+}
+.bgGrayParentDiv{
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 18px;
+    background-color: #f1f1f1;
+    width: 100%;
+    padding-top: 64px;
+    text-align: center;
+}
+.bgGrayChildDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+.inputDiv{
+    width: 100%;
+    margin-bottom: 14px;
+    text-align: center;
+    line-height: 1.42;
+}
+@media screen and (max-width: 600px){
+    body{
+        overflow-x: hidden;
+    }   
+    .parentDiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .halfDiv{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    input{
+        padding: 5px;
+    }
+    .inputDiv{
+        margin-bottom: 12px;
+    }
+}
