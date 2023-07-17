@@ -59,7 +59,7 @@ h2{
     font-family: "Raleway", Arial, sans-serif;
 }
 .redPara{
-    padding: 18px 0 14px;
+    padding: 18px 0 8px;
     color: #e91e63!important;
     text-align: center;
 }
@@ -81,7 +81,7 @@ button{
     color: white;
     padding: 8px 0;
     font-size: 15px !important;
-    margin-top: 1px !important;
+    margin-top: 9px !important;
 }
 .footer{
     font-size: 15px !important;
@@ -109,9 +109,9 @@ button{
 }
 .inputDiv{
     width: 100%;
-    margin-bottom: 14px;
+    margin: 6px 0;
     text-align: center;
-    line-height: 1.42;
+    line-height: 1.5;
 }
 @media screen and (max-width: 600px){
     body{
